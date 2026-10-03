@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+
+    /* Milan Pasta brand greens and golds, shared with the game in public/game. */
+    --color-milan-50: #f0f9f2;
+    --color-milan-100: #d9f1df;
+    --color-milan-200: #b3e2c0;
+    --color-milan-600: #178a3a;
+    --color-milan-700: #0f6b2d;
+    --color-milan-800: #0b4a20;
+    --color-milan-900: #062a14;
+    --color-gold-300: #ffe47a;
+    --color-gold-400: #ffd21a;
+    --color-gold-500: #f2a900;
+}
